@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #000a0a;
 }
 
 .hero h1{
@@ -25,3 +26,27 @@
 .hero h1 span{
     color: #ff2963;
 }
+
+
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #a3e3ef;
+    opacity: 30%;
+    backface-visibility: 30%;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+
+}
+
+textarea::placeholder{
+    font-size: 16px;
+    color: #080808;
+}
+
