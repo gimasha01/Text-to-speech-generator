@@ -1,0 +1,1 @@
+let textToSpeechGenerator = new SpeechSynthesisUtterance;
